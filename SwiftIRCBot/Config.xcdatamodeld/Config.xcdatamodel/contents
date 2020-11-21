@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
+    <entity name="Config" representedClassName=".Config" syncable="YES">
+        <attribute name="host" attributeType="String" syncable="YES"/>
+        <attribute name="ident" attributeType="String" syncable="YES"/>
+        <attribute name="invisible" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="module_load_line" attributeType="String" defaultValueString="core" syncable="YES"/>
+        <attribute name="nickname" attributeType="String" syncable="YES"/>
+        <attribute name="owner_account" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="port" attributeType="Integer 16" defaultValueString="6697" syncable="YES"/>
+        <attribute name="real_name" attributeType="String" syncable="YES"/>
+        <attribute name="sasl_password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sasl_username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trigger" attributeType="String" syncable="YES"/>
+        <attribute name="use_sasl" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="use_ssl" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Config" positionX="-63" positionY="-18" width="128" height="255"/>
+    </elements>
+</model>

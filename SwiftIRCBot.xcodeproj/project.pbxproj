@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2933E4041D443BF700B10F41 /* SwiftIRCBot_PyMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2933E4031D443BF700B10F41 /* SwiftIRCBot_PyMod.swift */; };
+		29738B641C72798300F9DA7A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29738B631C72798300F9DA7A /* main.swift */; };
+		29738B6B1C7279BD00F9DA7A /* SwiftIRCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29738B6A1C7279BD00F9DA7A /* SwiftIRCHandler.swift */; };
+		29738B6D1C727A3B00F9DA7A /* SwiftIRCBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29738B6C1C727A3B00F9DA7A /* SwiftIRCBot.swift */; };
+		299367841CDBEE2A005C0179 /* Versioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299367831CDBEE2A005C0179 /* Versioning.swift */; };
+		299367861CDC41E6005C0179 /* SwiftIRCBot_SecureMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299367851CDC41E6005C0179 /* SwiftIRCBot_SecureMod.swift */; };
+		2993678F1CDD1EB9005C0179 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 2993678B1CDD191B005C0179 /* Info.plist */; };
+		29B8CBC71CDDEE09003E284F /* SwiftIRCBot_DBMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B8CBC61CDDEE09003E284F /* SwiftIRCBot_DBMod.swift */; };
+		29B8CBCA1CDF2FF0003E284F /* Config.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29B8CBC81CDF2FF0003E284F /* Config.xcdatamodeld */; };
+		29B8CBCF1CDF3428003E284F /* Config+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B8CBCD1CDF3428003E284F /* Config+CoreDataProperties.swift */; };
+		29B8CBD01CDF3428003E284F /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B8CBCE1CDF3428003E284F /* Config.swift */; };
+		29B8CBD31CE06E28003E284F /* SwiftIRCBot_FunMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B8CBD21CE06E28003E284F /* SwiftIRCBot_FunMod.swift */; };
+		29CF1E081D5F388700E61178 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CF1E071D5F388700E61178 /* Python.framework */; };
+		29CF1E0E1D5F3A6C00E61178 /* libpython3.5m.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CF1E0C1D5F3A6C00E61178 /* libpython3.5m.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2933E4031D443BF700B10F41 /* SwiftIRCBot_PyMod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIRCBot_PyMod.swift; sourceTree = "<group>"; };
+		2933E4141D44B7B200B10F41 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		29738B601C72798300F9DA7A /* SwiftIRCBot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftIRCBot; sourceTree = BUILT_PRODUCTS_DIR; };
+		29738B631C72798300F9DA7A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		29738B6A1C7279BD00F9DA7A /* SwiftIRCHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIRCHandler.swift; sourceTree = "<group>"; };
+		29738B6C1C727A3B00F9DA7A /* SwiftIRCBot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIRCBot.swift; sourceTree = "<group>"; };
+		299367821CDBD0E3005C0179 /* SwiftIRCBot_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftIRCBot_Playground.playground; sourceTree = "<group>"; };
+		299367831CDBEE2A005C0179 /* Versioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Versioning.swift; sourceTree = "<group>"; };
+		299367851CDC41E6005C0179 /* SwiftIRCBot_SecureMod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIRCBot_SecureMod.swift; sourceTree = "<group>"; };
+		2993678B1CDD191B005C0179 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B8CBC61CDDEE09003E284F /* SwiftIRCBot_DBMod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIRCBot_DBMod.swift; sourceTree = "<group>"; };
+		29B8CBC91CDF2FF0003E284F /* Config.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Config.xcdatamodel; sourceTree = "<group>"; };
+		29B8CBCD1CDF3428003E284F /* Config+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Config+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		29B8CBCE1CDF3428003E284F /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		29B8CBD21CE06E28003E284F /* SwiftIRCBot_FunMod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIRCBot_FunMod.swift; sourceTree = "<group>"; };
+		29CF1E071D5F388700E61178 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = ../../../../usr/local/Frameworks/Python.framework; sourceTree = "<group>"; };
+		29CF1E0C1D5F3A6C00E61178 /* libpython3.5m.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpython3.5m.dylib; path = ../../../../usr/local/Cellar/python3/3.5.2_1/Frameworks/Python.framework/Versions/3.5/lib/libpython3.5m.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29738B5D1C72798300F9DA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CF1E0E1D5F3A6C00E61178 /* libpython3.5m.dylib in Frameworks */,
+				29CF1E081D5F388700E61178 /* Python.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29738B571C72798300F9DA7A = {
+			isa = PBXGroup;
+			children = (
+				29CF1E0C1D5F3A6C00E61178 /* libpython3.5m.dylib */,
+				29CF1E071D5F388700E61178 /* Python.framework */,
+				2993678B1CDD191B005C0179 /* Info.plist */,
+				29738B621C72798300F9DA7A /* SwiftIRCBot */,
+				29738B611C72798300F9DA7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29738B611C72798300F9DA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29738B601C72798300F9DA7A /* SwiftIRCBot */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29738B621C72798300F9DA7A /* SwiftIRCBot */ = {
+			isa = PBXGroup;
+			children = (
+				29738B631C72798300F9DA7A /* main.swift */,
+				29738B6C1C727A3B00F9DA7A /* SwiftIRCBot.swift */,
+				299367851CDC41E6005C0179 /* SwiftIRCBot_SecureMod.swift */,
+				2933E4031D443BF700B10F41 /* SwiftIRCBot_PyMod.swift */,
+				29738B6A1C7279BD00F9DA7A /* SwiftIRCHandler.swift */,
+				299367831CDBEE2A005C0179 /* Versioning.swift */,
+				299367821CDBD0E3005C0179 /* SwiftIRCBot_Playground.playground */,
+				29B8CBC61CDDEE09003E284F /* SwiftIRCBot_DBMod.swift */,
+				29B8CBC81CDF2FF0003E284F /* Config.xcdatamodeld */,
+				29B8CBCD1CDF3428003E284F /* Config+CoreDataProperties.swift */,
+				29B8CBCE1CDF3428003E284F /* Config.swift */,
+				29B8CBD21CE06E28003E284F /* SwiftIRCBot_FunMod.swift */,
+				2933E4141D44B7B200B10F41 /* bridge.h */,
+			);
+			path = SwiftIRCBot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29738B5F1C72798300F9DA7A /* SwiftIRCBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29738B671C72798300F9DA7A /* Build configuration list for PBXNativeTarget "SwiftIRCBot" */;
+			buildPhases = (
+				29738B5C1C72798300F9DA7A /* Sources */,
+				29738B5D1C72798300F9DA7A /* Frameworks */,
+				2993678C1CDD1B28005C0179 /* Run Script */,
+				29B8CBD11CDF9332003E284F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftIRCBot;
+			productName = SwiftIRCBot;
+			productReference = 29738B601C72798300F9DA7A /* SwiftIRCBot */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29738B581C72798300F9DA7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Roland Metivier";
+				TargetAttributes = {
+					29738B5F1C72798300F9DA7A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 29738B5B1C72798300F9DA7A /* Build configuration list for PBXProject "SwiftIRCBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29738B571C72798300F9DA7A;
+			productRefGroup = 29738B611C72798300F9DA7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29738B5F1C72798300F9DA7A /* SwiftIRCBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B8CBD11CDF9332003E284F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2993678C1CDD1B28005C0179 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n/usr/bin/xcrun agvtool next-version\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $CURRENT_PROJECT_VERSION\" Info.plist\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29738B5C1C72798300F9DA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2993678F1CDD1EB9005C0179 /* Info.plist in Sources */,
+				29B8CBC71CDDEE09003E284F /* SwiftIRCBot_DBMod.swift in Sources */,
+				29738B6D1C727A3B00F9DA7A /* SwiftIRCBot.swift in Sources */,
+				29B8CBCF1CDF3428003E284F /* Config+CoreDataProperties.swift in Sources */,
+				29B8CBD01CDF3428003E284F /* Config.swift in Sources */,
+				29B8CBD31CE06E28003E284F /* SwiftIRCBot_FunMod.swift in Sources */,
+				299367861CDC41E6005C0179 /* SwiftIRCBot_SecureMod.swift in Sources */,
+				29738B641C72798300F9DA7A /* main.swift in Sources */,
+				29738B6B1C7279BD00F9DA7A /* SwiftIRCHandler.swift in Sources */,
+				299367841CDBEE2A005C0179 /* Versioning.swift in Sources */,
+				2933E4041D443BF700B10F41 /* SwiftIRCBot_PyMod.swift in Sources */,
+				29B8CBCA1CDF2FF0003E284F /* Config.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29738B651C72798300F9DA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CURRENT_PROJECT_VERSION = 274;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		29738B661C72798300F9DA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CURRENT_PROJECT_VERSION = 274;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		29738B681C72798300F9DA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 274;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Frameworks,
+				);
+				HEADER_SEARCH_PATHS = "/usr/local/Frameworks/Python.framework/Versions/3.5/include/**";
+				LIBRARY_SEARCH_PATHS = /usr/local/Frameworks/Python.framework/Versions/3.5/lib;
+				PRODUCT_NAME = SwiftIRCBot;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/rolandmetivier/Documents/SwiftIRCBot/SwiftIRCBot/bridge.h;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		29738B691C72798300F9DA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 274;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Frameworks,
+				);
+				HEADER_SEARCH_PATHS = "/usr/local/Frameworks/Python.framework/Versions/3.5/include/**";
+				LIBRARY_SEARCH_PATHS = /usr/local/Frameworks/Python.framework/Versions/3.5/lib;
+				PRODUCT_NAME = SwiftIRCBot;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/rolandmetivier/Documents/SwiftIRCBot/SwiftIRCBot/bridge.h;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29738B5B1C72798300F9DA7A /* Build configuration list for PBXProject "SwiftIRCBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29738B651C72798300F9DA7A /* Debug */,
+				29738B661C72798300F9DA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29738B671C72798300F9DA7A /* Build configuration list for PBXNativeTarget "SwiftIRCBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29738B681C72798300F9DA7A /* Debug */,
+				29738B691C72798300F9DA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29B8CBC81CDF2FF0003E284F /* Config.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29B8CBC91CDF2FF0003E284F /* Config.xcdatamodel */,
+			);
+			currentVersion = 29B8CBC91CDF2FF0003E284F /* Config.xcdatamodel */;
+			path = Config.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29738B581C72798300F9DA7A /* Project object */;
+}

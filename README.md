@@ -1,0 +1,2 @@
+# SwiftIRCBot
+Swift IRC bot.
